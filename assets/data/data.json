@@ -1,0 +1,108 @@
+{
+    "title": "Brandon Dev | Portafolio",
+    "description": "Software Developer.",
+    "image": "/avatar.jpg",
+    "avatar": "/avatar.jpg",
+    "name": "Brandon Bustos Gaviria",
+    "skill": "Software Developer",
+    "location": "Colombia, Tuluá Valle del Cauca",
+    "media": {
+        "email": "brandon.bustos.dev@gmail.com",
+        "cv": "/data/cv.pdf",
+        "github": "https://github.com/BrandonBustosG",
+        "likedin": "https://www.linkedin.com/in/brandon-bustos-654127328/"
+    },
+    "about": "Soy Desarrollador de software con 3+ años de experiencia en el diseño, desarrollo y mantenimiento de sistemas de información. Especializado en la atención de requerimientos de usuarios y la implementación de soluciones informáticas eficientes y escalables. Trabajo tanto de manera independiente como en equipo, aplicando metodologías ágiles para garantizar la calidad del producto. Con un enfoque en la mejora continua, siempre busco optimizar procesos y aportar soluciones innovadoras que respondan a las necesidades tecnológicas del negocio.",
+    "technologies": [
+        {
+            "icon": "devicon-dot-net-plain",
+            "name": ".NET"
+        },
+        {
+            "icon": "devicon-blazor-original",
+            "name": "Blazor"
+        },
+        {
+            "icon": "devicon-csharp-plain",
+            "name": "C#"
+        },
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-fastapi-plain",
+            "name": "FastAPI"
+        },
+        {
+            "icon": "devicon-postgresql-plain",
+            "name": "Postgresql"
+        },
+        {
+            "icon": "devicon-microsoftsqlserver-plain",
+            "name": "SQL Server"
+        }
+    ],
+    "experience": [
+        {
+            "icon": "terminal",
+            "title": "OL Software",
+            "subtitle": "Software Developer",
+            "description": "Desarrollador de software Backend.",
+            "date": "2021 - Actualidad"
+        }
+    ],
+    "projects": [
+        {
+            "icon": "file-lock",
+            "title": "DocLokc",
+            "subtitle": "Software para encriptar PDFs",
+            "description": "Software para establecer contraseñas de manera masiva a documentos PDFs.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "python"
+                },
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Tkinter"
+                }
+            ],
+            "image": "/doclock.jpg",
+            "url": "https://matrix.fandom.com/wiki/Wiki",
+            "github": "https://github.com/thomasanderson"
+        }
+    ],
+    "training": [
+        {
+            "icon": "backpack",
+            "title": "International Scrum Institute",
+            "subtitle": "Scrum Developer",
+            "description": "",
+            "date": "2022",
+            "certificate": "https://www.scrum-institute.org/badges/04986854389309"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "Universidad del Valle",
+            "subtitle": "Tecnólogo en sistemas de información",
+            "description": "",
+            "date": "2022",
+            "certificate": ""
+        }
+    ],
+    "extras": [
+        {
+            "image": "/extra_1.jpg",
+            "title": "Semillero de Ciberseguridad",
+            "description": "Perteneci al semillero de ciberseguridad mientras estaba en la universidad.",
+            "url": ""
+        },
+        {
+            "image": "/extra_2.png",
+            "title": "Creacion de contenido",
+            "description": "Me gusta compartir mi conocimiento sobre programacion. Este es mi canal de Youtube.",
+            "url": "https://youtube.com/@lineas_de_codigo?si=75NXDfW8pRyHRrMX"
+        }
+    ]
+}
