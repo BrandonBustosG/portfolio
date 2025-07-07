@@ -69,8 +69,8 @@
                 }
             ],
             "image": "/doclock.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "url": "",
+            "github": ""
         }
     ],
     "training": [
@@ -101,7 +101,7 @@
         {
             "image": "/extra_2.png",
             "title": "Creacion de contenido",
-            "description": "Me gusta compartir mi conocimiento sobre programacion. Este es mi canal de Youtube.",
+            "description": "Muy pronto en youTube, tendre un canal (lineas de código) donde compartire contenido de desarrollo de software.",
             "url": "https://youtube.com/@lineas_de_codigo?si=75NXDfW8pRyHRrMX"
         }
     ]
