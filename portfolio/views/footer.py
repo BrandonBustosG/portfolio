@@ -5,4 +5,12 @@ from portfolio.styles.styles import Size
 
 
 def footer(data: Media) -> rx.Component:
-    return rx.vstack(rx.text("Brandon"), media(data), spacing=Size.SMALL.value)
+    return rx.vstack(
+        rx.text("Brandon Bustos Gaviria"),
+        media(data),
+        rx.text(
+            "BUILDING SOFTWARE WITH ❤️ FROM COLOMBIA TO THE WORLD. CREATED WITH REFLEX.",
+            size="1",
+        ),
+        spacing=Size.SMALL.value,
+    )
