@@ -22,9 +22,10 @@ class Size(Enum):
 STYLESHEETS = ["https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"]
 
 BASE_STYLE = {
-    "background-image": "url(fondo.jpg)",
-    "background-position": "center",
-    "background-repeat": "no-repeat",
-    "background-size": "cover",
+    "background-image": "url(fondo_partial.png)",
+    #"background-position": "center",
+    "background-repeat": "repeat",
+    "background_attachment": "fixed",
+    #"background-size": "cover",
     rx.button: {"--cursor-button": "pointer"},
 }

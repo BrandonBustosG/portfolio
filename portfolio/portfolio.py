@@ -20,20 +20,19 @@ class State(rx.State):
 def index() -> rx.Component:
     return rx.center(
         rx.script("document.documentElement.lang='es'"),
-        rx.theme_panel(default_open=False),
         rx.vstack(
             # rx.color_mode.button(position="top-right"),
             header(DATA),
             about(DATA.about),
-            rx.divider(),
+            rx.divider(color_scheme="indigo", size="4", height="4px"),
             tech_stack(DATA.technologies),
             info("Experiencia", DATA.experience),
             info("Proyectos", DATA.projects),
             heading("Más proyectos en desarrollo..."),
-            rx.divider(),
+            rx.divider(color_scheme="indigo", size="4", height="4px"),
             info("Formación", DATA.training),
             extra(DATA.extras),
-            rx.divider(),
+            rx.divider(color_scheme="indigo", size="4", height="4px"),
             footer(DATA.media),
             spacing=Size.MEDIUM.value,
             padding_x=EmSize.MEDIUM.value,
@@ -45,11 +44,9 @@ def index() -> rx.Component:
 
 
 app = rx.App(
-    stylesheets=STYLESHEETS, 
-    style=BASE_STYLE, 
-    theme=rx.theme(
-        accent_color="indigo"
-    )
+    stylesheets=STYLESHEETS,
+    style=BASE_STYLE,
+    theme=rx.theme(appearance="dark", accent_color="indigo"),
 )
 
 title = DATA.title
